@@ -1,6 +1,6 @@
 {
   "name": "@matfire/satteri-photoswipe",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Satteri plugin that prepares images for PhotoSwipe",
   "homepage": "https://github.com/matfire/satteri-photoswipe",
   "bugs": {
