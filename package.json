@@ -3,8 +3,19 @@
   "version": "0.1.0",
   "description": "A Satteri plugin that prepares images for PhotoSwipe",
   "homepage": "https://github.com/matfire/satteri-photoswipe",
+  "bugs": {
+    "url": "https://github.com/matfire/satteri-photoswipe/issues"
+  },
   "license": "MIT",
-  "repository": "https://github.com/matfire/satteri-photoswipe",
+  "author": {
+    "name": "Matteo Gassend",
+    "email": "matteo@matteogassend.com",
+    "url": "https://matteogassend.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matfire/satteri-photoswipe"
+  },
   "files": [
     "dist"
   ],
@@ -53,6 +64,10 @@
   },
   "peerDependencies": {
     "satteri": "^0.9.3"
+  },
+  "inlinedDependencies": {
+    "@types/hast": "3.0.4",
+    "@types/unist": "3.0.3"
   },
   "trustedDependencies": [
     "lefthook"
