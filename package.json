@@ -38,7 +38,8 @@
     "lint": "oxlint . --vitest-plugin --deny-warnings",
     "lint:fix": "oxlint . --vitest-plugin --fix",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepack": "tsdown"
   },
   "dependencies": {
     "probe-image-size": "^7.3.0"
