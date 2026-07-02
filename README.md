@@ -29,14 +29,6 @@ V1 intentionally mirrors the upstream rehype plugin behavior. Image `src` values
 are passed to `probe-image-size` as-is; relative image resolution and other
 Satteri-specific options are not handled.
 
-## Releases
-
-This package uses `brel` to generate release PRs from Conventional Commits.
-
-The generated GitHub Actions workflow runs on pushes to `main` and creates a
-`v{version}` tag when a managed release PR is merged. Configure the repository
-secret `BREL_TAG_PUSH_TOKEN` with a token that can push tags.
-
 ## Development
 
 ```sh

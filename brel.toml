@@ -1,0 +1,8 @@
+default_branch = "main"
+
+[release_pr.version_updates]
+"package.json" = ["version"]
+
+[release_pr.tagging]
+enabled = true
+tag_template = "v{version}"
