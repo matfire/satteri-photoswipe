@@ -1,3 +1,8 @@
+## [0.1.4] - 2026-07-02
+
+### 🐛 Bug Fixes
+
+- Switch release workflow
 ## [0.1.3] - 2026-06-30
 
 ### ⚙️ Miscellaneous Tasks
